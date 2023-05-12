@@ -1,0 +1,13 @@
+LR = 1e-3
+BATCH_SIZE = 32
+MAX_EPOCHS = 10
+NUM_WORKERS = 4
+PIN_MEMORY = True
+SHUFFLE = True
+PRETRAINED = True
+PRECISION = 16
+PATH = "/workspace/data"
+IMAGE_HEIGHT = 266
+IMAGE_WIDTH = 196
+MEAN = [.5, .5, .5]
+STD = [.5, .5, .5]
